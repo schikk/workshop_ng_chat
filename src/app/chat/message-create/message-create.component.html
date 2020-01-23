@@ -1,0 +1,6 @@
+<form class="message-create" (ngSubmit)="sendMessage()">
+  <input class="messages-create__input" type="text" autocomplete="off" name="new-message" [(ngModel)]="messageText">
+  <button class="messages-create__send" type="submit">
+    SEND
+  </button>
+</form>

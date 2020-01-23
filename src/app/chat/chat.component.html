@@ -1,0 +1,7 @@
+<div class="chat">
+  <div class="chat__messages">
+    <app-message *ngFor="let message of messages">
+    </app-message>
+  </div>
+  <app-message-create (send)="send($event)"></app-message-create>
+</div>
